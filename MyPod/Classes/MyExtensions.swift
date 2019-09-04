@@ -7,9 +7,9 @@
 
 import Foundation
 
-class MyExtensions{
+public class MyExtensions{
     
-    static let const = 100
+    public static let const = 100
     
 }
 
