@@ -9,6 +9,9 @@ import Foundation
 
 class MyExtensions{
     
-    
+    static let const = 100
     
 }
+
+
+
