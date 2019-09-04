@@ -1,0 +1,22 @@
+{
+  "name": "MyPod",
+  "version": "0.1.0",
+  "summary": "A short description of MyPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fu06gjo3cl4/MyPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fu06gjo3cl4": "fu06gjo3cl4@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/fu06gjo3cl4/MyPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyPod/Classes/**/*"
+}
