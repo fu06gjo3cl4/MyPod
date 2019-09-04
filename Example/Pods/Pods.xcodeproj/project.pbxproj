@@ -55,8 +55,13 @@
 		4670C745907FAF6BB456187E083C31E4 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93FB6C9F7D7CDF9160A91B050C6105 /* World.swift */; };
 		47EAC7C9A0D977A663C7201538FE64D5 /* HaveValidSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BCB88A3944A0AA578C767A766F42DC /* HaveValidSnapshot.swift */; };
 		4C78C64D231F467C0011B8D5 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4C78C64B231F467C0011B8D5 /* .gitkeep */; };
-		4C78C64E231F467C0011B8D5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C64C231F467C0011B8D5 /* ReplaceMe.swift */; };
 		4C78C650231F46930011B8D5 /* MyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C64F231F46930011B8D5 /* MyExtensions.swift */; };
+		4C78C652231F55C00011B8D5 /* fortest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C651231F55C00011B8D5 /* fortest.swift */; };
+		4C78C654231F55EC0011B8D5 /* ObjcFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C653231F55EC0011B8D5 /* ObjcFile.m */; };
+		4C78C657231F566B0011B8D5 /* MyObjcFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C78C655231F566B0011B8D5 /* MyObjcFile.h */; };
+		4C78C658231F566B0011B8D5 /* MyObjcFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C656231F566B0011B8D5 /* MyObjcFile.m */; };
+		4C78C65B231F56BB0011B8D5 /* MyObjcClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C78C659231F56BB0011B8D5 /* MyObjcClass.h */; };
+		4C78C65C231F56BB0011B8D5 /* MyObjcClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C65A231F56BB0011B8D5 /* MyObjcClass.m */; };
 		4CF8A6092DC4EEF90367C6C6440DEE86 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CE6AE58CEA4F2AD1BC778D67CB85B5 /* UIImage+Snapshot.m */; };
 		4D5031D74665D0FE5ED17205CC8C2673 /* CwlPreconditionTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED23789B3D43F8AF1085A5D6EC1A157 /* CwlPreconditionTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50CE485694DA974ABB8F4FE31E569B62 /* URL+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F834CA938E663BE9B2D6555C06C89C86 /* URL+FileName.swift */; };
@@ -276,8 +281,13 @@
 		4ADA787A3DFC4A3DA3734C24511DF690 /* PrettyDynamicTypeSyntax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrettyDynamicTypeSyntax.swift; path = DynamicType/PrettyDynamicTypeSyntax.swift; sourceTree = "<group>"; };
 		4BA40E22062FF97E1C92F80701C185C9 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
 		4C78C64B231F467C0011B8D5 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		4C78C64C231F467C0011B8D5 /* ReplaceMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		4C78C64F231F46930011B8D5 /* MyExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtensions.swift; sourceTree = "<group>"; };
+		4C78C651231F55C00011B8D5 /* fortest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fortest.swift; sourceTree = "<group>"; };
+		4C78C653231F55EC0011B8D5 /* ObjcFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcFile.m; sourceTree = "<group>"; };
+		4C78C655231F566B0011B8D5 /* MyObjcFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyObjcFile.h; sourceTree = "<group>"; };
+		4C78C656231F566B0011B8D5 /* MyObjcFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyObjcFile.m; sourceTree = "<group>"; };
+		4C78C659231F56BB0011B8D5 /* MyObjcClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyObjcClass.h; sourceTree = "<group>"; };
+		4C78C65A231F56BB0011B8D5 /* MyObjcClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyObjcClass.m; sourceTree = "<group>"; };
 		4D3B651187CE45B77CE502B336643D71 /* PrettySyntax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrettySyntax.swift; sourceTree = "<group>"; };
 		4DF4138BA6A4568670C01C4FACC87D28 /* CwlBadInstructionException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlBadInstructionException.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlBadInstructionException.swift; sourceTree = "<group>"; };
 		4F90FA9899A36066AD3EC89350D45D95 /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Sources/Nimble/Matchers/Match.swift; sourceTree = "<group>"; };
@@ -578,8 +588,9 @@
 			isa = PBXGroup;
 			children = (
 				4C78C64B231F467C0011B8D5 /* .gitkeep */,
-				4C78C64C231F467C0011B8D5 /* ReplaceMe.swift */,
 				4C78C64F231F46930011B8D5 /* MyExtensions.swift */,
+				4C78C659231F56BB0011B8D5 /* MyObjcClass.h */,
+				4C78C65A231F56BB0011B8D5 /* MyObjcClass.m */,
 			);
 			name = Classes;
 			path = MyPod/Classes;
@@ -644,6 +655,10 @@
 				ADE22ABBC0EEA5F728CC0AA87E2DE27A /* MyPod-Info.plist */,
 				AAC0EC62A9F476FD6E218EA169B83160 /* MyPod-prefix.pch */,
 				33975EAE0AD88B274E2A340DA8378B04 /* MyPod-umbrella.h */,
+				4C78C651231F55C00011B8D5 /* fortest.swift */,
+				4C78C653231F55EC0011B8D5 /* ObjcFile.m */,
+				4C78C655231F566B0011B8D5 /* MyObjcFile.h */,
+				4C78C656231F566B0011B8D5 /* MyObjcFile.m */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MyPod";
@@ -957,6 +972,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8508685F4B3DFD4E93B29948FA0ACF83 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				4C78C65B231F56BB0011B8D5 /* MyObjcClass.h in Headers */,
 				1E2A893F6AEA53172BA022B76B228C49 /* FBSnapshotTestCase.h in Headers */,
 				791C03EFFF06649DA66FAF30BC35CD16 /* FBSnapshotTestCasePlatform.h in Headers */,
 				D4AD6B2A1D9F633251F4CCE647A82052 /* FBSnapshotTestController.h in Headers */,
@@ -964,6 +980,7 @@
 				BE1CC07148196181546C119716D4376C /* UIImage+Compare.h in Headers */,
 				6C521CCD8750EEEEA73708F8C1D89916 /* UIImage+Diff.h in Headers */,
 				F7D29D32A183783FB4C32DBFE0AA3F07 /* UIImage+Snapshot.h in Headers */,
+				4C78C657231F566B0011B8D5 /* MyObjcFile.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1305,15 +1322,18 @@
 			files = (
 				1BA8502BC67A7C596CAC25AF208AD2D2 /* FBSnapshotTestCase-dummy.m in Sources */,
 				AB8A64DEACDDC74D67BD635B2D02627F /* FBSnapshotTestCase.m in Sources */,
+				4C78C65C231F56BB0011B8D5 /* MyObjcClass.m in Sources */,
 				35D78A991740568175DCA9F6519A54EB /* FBSnapshotTestCasePlatform.m in Sources */,
+				4C78C658231F566B0011B8D5 /* MyObjcFile.m in Sources */,
 				929188AFEF467CF1FDD25C2BCDB6BFE9 /* FBSnapshotTestController.m in Sources */,
-				4C78C64E231F467C0011B8D5 /* ReplaceMe.swift in Sources */,
 				0DD4183089B3720B8B22DE275C5DEFD6 /* SwiftSupport.swift in Sources */,
 				4C78C650231F46930011B8D5 /* MyExtensions.swift in Sources */,
 				D84D626FC6A666332367C6375B8D6D1E /* UIApplication+StrictKeyWindow.m in Sources */,
 				13A0EB9B5322E8D6E6F614D24186057C /* UIImage+Compare.m in Sources */,
 				2F07378A994C46D715AE555AC8629602 /* UIImage+Diff.m in Sources */,
+				4C78C652231F55C00011B8D5 /* fortest.swift in Sources */,
 				4CF8A6092DC4EEF90367C6C6440DEE86 /* UIImage+Snapshot.m in Sources */,
+				4C78C654231F55EC0011B8D5 /* ObjcFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
